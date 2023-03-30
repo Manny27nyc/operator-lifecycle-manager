@@ -5,7 +5,7 @@ COPY . .
 ENV CGO_ENABLED 0
 RUN make build
 
-FROM alpine:3.12
+FROM alpine:3.14
 
 COPY --from=builder /app/gojq /usr/local/bin/
 ENTRYPOINT ["/usr/local/bin/gojq"]
