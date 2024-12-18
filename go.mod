@@ -13,8 +13,8 @@ require (
 	github.com/go-air/gini v1.0.4
 	github.com/go-bindata/go-bindata/v3 v3.1.3
 	github.com/go-logr/logr v0.4.0
-	github.com/golang/mock v1.4.1
-	github.com/google/go-cmp v0.5.6
+	github.com/golang/mock v1.6.0
+	github.com/google/go-cmp v0.5.9
 	github.com/googleapis/gnostic v0.5.5
 	github.com/itchyny/gojq v0.11.0
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.2.2
@@ -29,16 +29,16 @@ require (
 	github.com/operator-framework/operator-registry v1.17.5
 	github.com/otiai10/copy v1.2.0
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.11.0
-	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/client_golang v1.11.1
+	github.com/prometheus/client_model v0.3.0
 	github.com/prometheus/common v0.26.0
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.0.0-20210520170846-37e1c6afe023
-	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	google.golang.org/grpc v1.38.0
+	github.com/stretchr/testify v1.8.3
+	golang.org/x/net v0.9.0
+	golang.org/x/time v0.3.0
+	google.golang.org/grpc v1.56.3
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.6.1
 	k8s.io/api v0.22.0
